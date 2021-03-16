@@ -20,7 +20,7 @@
  *  12. infos
  *  13. infos
  *  14. stats
- *  15. pricing
+ *  15. about
  *  16. testimonials
  *  17. equipo
  *  18. subscribe
@@ -1804,23 +1804,23 @@ header .logo img {
 
 }
 
-#pricing {
+#about {
 	background: #e2e5e7;
 	padding-top: 12rem;
 	padding-bottom: 9.6rem;
 }
 
-.pricing-content {
+.about-content {
 	margin-top: 3rem;
 	max-width: 1080px;
 }
 
-.pricing-content .bgrid {
+.about-content .bgrid {
 	margin-bottom: 3.9rem;
 	padding: 0 20px;
 }
 
-.pricing-content .price-block {
+.about-content .price-block {
 	background-color: #FFFFFF;
 	text-align: center;
 	padding: 6rem 0 4.8rem;
@@ -1828,20 +1828,20 @@ header .logo img {
 	position: relative;
 }
 
-.pricing-content .price-block .bottom-part {
+.about-content .price-block .bottom-part {
 	padding-top: 2.4rem;
 	padding-left: 3rem;
 	padding-right: 3rem;
 }
 
-.pricing-content .price-block .plan-title {
+.about-content .price-block .plan-title {
 	padding-bottom: 2.4rem;
 	font-size: 2.4rem;
 	font-family: "roboto-bold";
 	position: relative;
 }
 
-.pricing-content .price-block .plan-title::after {
+.about-content .price-block .plan-title::after {
 	display: block;
 	background-color: rgba(0, 24, 53, 0.3);
 	width: 80px;
@@ -1853,7 +1853,7 @@ header .logo img {
 	margin-left: -40px;
 }
 
-.pricing-content .price-block .plan-price {
+.about-content .price-block .plan-price {
 	font-family: "domine-bold", serif;
 	color: #001835;
 	font-size: 6.5rem;
@@ -1862,21 +1862,21 @@ header .logo img {
 	margin-bottom: 0;
 }
 
-.pricing-content .price-block .plan-price sup {
+.about-content .price-block .plan-price sup {
 	font-family: "roboto-black", sans-serif;
 	font-size: 2.4rem;
 	top: -3rem;
 	margin-right: 3px;
 }
 
-.pricing-content .price-block .price-month {
+.about-content .price-block .price-month {
 	margin-bottom: 1.2rem;
 	font-family: "roboto-regular", sans-serif;
 	font-size: 1.8rem;
 	color: #3f4452;
 }
 
-.pricing-content .price-block .infos {
+.about-content .price-block .infos {
 	list-style: none;
 	font-family: "roboto-regular", sans-serif;
 	font-size: 1.6rem;
@@ -1884,23 +1884,23 @@ header .logo img {
 	margin: 0 0 4.2rem 0;
 }
 
-.pricing-content .price-block .infos li {
+.about-content .price-block .infos li {
 	padding: .6rem 0;
 	border-bottom: 1px solid rgba(63, 80, 96, 0.15);
 }
 
-.pricing-content .price-block .infos li strong {
+.about-content .price-block .infos li strong {
 	color: #001835;
 	font-family: "roboto-black", serif;
 	color: #001835;
 	margin-right: 5px;
 }
 
-.pricing-content .price-block .infos li:last-child {
+.about-content .price-block .infos li:last-child {
 	border: none;
 }
 
-.pricing-content .price-block .button {
+.about-content .price-block .button {
 	background: #002f68;
 	color: #FFFFFF;
 	padding: 0 5rem;
@@ -1908,18 +1908,18 @@ header .logo img {
 	margin-right: auto;
 }
 
-.pricing-content .price-block .button:hover,
-.pricing-content .price-block .button:focus {
+.about-content .price-block .button:hover,
+.about-content .price-block .button:focus {
 	background: #002a5e;
 	color: #FFFFFF;
 }
 
-.pricing-content .primary {
+.about-content .primary {
 	background: #002f68;
 	color: #FFFFFF;
 }
 
-.pricing-content .primary::before {
+.about-content .primary::before {
 	content: attr(data-info);
 	display: block;
 	min-height: 48px;
@@ -1940,64 +1940,64 @@ header .logo img {
 	transform: translate(-50%);
 }
 
-.pricing-content .primary .plan-title {
+.about-content .primary .plan-title {
 	color: #FFFFFF;
 }
 
-.pricing-content .primary .plan-title::after {
+.about-content .primary .plan-title::after {
 	background-color: rgba(255, 255, 255, 0.3);
 }
 
-.pricing-content .primary .plan-price {
+.about-content .primary .plan-price {
 	color: #FFFFFF;
 }
 
-.pricing-content .primary .price-month {
+.about-content .primary .price-month {
 	color: rgba(255, 255, 255, 0.5);
 }
 
-.pricing-content .primary .button {
+.about-content .primary .button {
 	background: #FFFFFF;
 	color: #001835;
 }
 
-.pricing-content .primary .button:hover,
-.pricing-content .primary .button:focus {
+.about-content .primary .button:hover,
+.about-content .primary .button:focus {
 	background: #002149;
 }
 
-.pricing-content .primary .infos {
+.about-content .primary .infos {
 	color: rgba(255, 255, 255, 0.6);
 }
 
-.pricing-content .primary .infos li {
+.about-content .primary .infos li {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-.pricing-content .primary .infos li strong {
+.about-content .primary .infos li strong {
 	color: #FFFFFF;
 }
 
 /* ------------------------------------------------------------------- 
  * responsive:
- * pricing 
+ * about 
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:1024px) {
-	.pricing-content {
+	.about-content {
 		max-width: 650px;
 	}
 
-	.pricing-content .bgrid {
+	.about-content .bgrid {
 		padding: 0;
 		width: 50%;
 		clear: none;
 	}
 
-	.pricing-content .bgrid:nth-child(2n+1) {
+	.about-content .bgrid:nth-child(2n+1) {
 		clear: both;
 	}
 
-	.pricing-content .bgrid:last-child {
+	.about-content .bgrid:last-child {
 		clear: both;
 		float: none;
 		margin-left: auto;
@@ -2007,11 +2007,11 @@ header .logo img {
 }
 
 @media only screen and (max-width:600px) {
-	.pricing-content {
+	.about-content {
 		max-width: 400px;
 	}
 
-	.pricing-content .bgrid {
+	.about-content .bgrid {
 		width: 100% !important;
 		float: none !important;
 		clear: both !important;
